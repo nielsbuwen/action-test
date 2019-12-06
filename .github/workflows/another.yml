@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build-number-two:
-
+    needs: build-number-one
     runs-on: ubuntu-latest
 
     steps:
